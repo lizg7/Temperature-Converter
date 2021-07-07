@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body">
+  <p class="title">Temperature Converter</p>
+
+  <ul>
+    <li><a href="ftoc.html" class="active">Fahrenheit to Celsius</a></li>
+    <li><a href="ctof.html">Celsius to Fahrenheit</a></li>
+  </ul>
+
+  <div>
+    <form id="frm1" action="/action_page.php">
+      Temperature(F): <input type="text" name="fname" value=""><br>
+    </form>   
+  
+    <button onclick="myFunction()">Convert</button>    
+  </div>
+  
+  <div>
+    <p>Temperature(C):</p>
+
+    <p id="tempC"></p>
+  </div>
+
+    <script src="ftoc.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
